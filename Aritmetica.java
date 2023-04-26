@@ -8,7 +8,7 @@ public class Aritmetica implements ICalcMedia {
     @Override
     public String Situacao(double media) {
         String situacao = "Reprovado";
-        if (media > 5 && media <= 10) {
+        if (media > 5) {
             situacao = "Aprovado";
         }
         return situacao;

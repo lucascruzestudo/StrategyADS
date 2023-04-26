@@ -8,7 +8,7 @@ public class Geometrica implements ICalcMedia {
     @Override
     public String Situacao(double media) {
         String situacao = "Reprovado";
-        if (media > 7 && media <= 10) {
+        if (media > 7) {
             situacao = "Aprovado";
         }
         return situacao;
