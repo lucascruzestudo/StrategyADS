@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        // Aritmetica calculo = new Aritmetica();
-        Geometrica calculo = new Geometrica();
+        Aritmetica calculo = new Aritmetica();
+        // Geometrica calculo = new Geometrica();
         Disciplina d = new Disciplina(calculo);
         d.setNome("Padroes de Desenvolvimento");
         d.setP1(10);
